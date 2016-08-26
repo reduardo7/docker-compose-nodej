@@ -1,0 +1,23 @@
+{
+  "name": "docker-compose-nodejs",
+  "description": "Docker-Compose NodeJS",
+  "author": "Eduardo Cuomo <reduardo7@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reduardo7/docker-compose-nodejs"
+  },
+  "bugs": {
+    "url": "https://github.com/reduardo7/docker-compose-nodejs/issues"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "private": true,
+  "license": "MIT"
+}
